@@ -5,19 +5,19 @@ import { Factory, Building, Zap } from "lucide-react"
 export function CaseStudies() {
   const caseStudies = [
     {
-      icon: Factory,
+      image: "/emlogo.jpg",
       badge: "Steel Industry",
       title: "Emirates Steel (UAE)",
       description: "Green hydrogen savings tokenized via MRV and traded as credits",
     },
     {
-      icon: Building,
+     image: "/hol.jpg",
       badge: "Cement Industry",
       title: "LafargeHolcim",
       description: "CO₂ capture in cement plants verified and converted into digital assets",
     },
     {
-      icon: Zap,
+     image: "/en.jpg",
       badge: "Energy Sector",
       title: "ENGIE Cofely",
       description: "Energy efficiency credits generated from smart MEP retrofits",
@@ -37,7 +37,8 @@ export function CaseStudies() {
             <Card key={index} className="border-green-200 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-2">
-                  <study.icon className="h-6 w-6 text-green-600" />
+                  <img src={study.image} alt={study.badge + " logo"} className="h-10 w-10 object-contain" />
+
                   <Badge variant="outline" className="border-green-600 text-green-600">
                     {study.badge}
                   </Badge>

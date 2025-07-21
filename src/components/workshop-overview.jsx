@@ -5,7 +5,7 @@ export function WorkshopOverview() {
   const learningItems = [
     "Understand carbon credit frameworks & MRV protocols",
     "Grasp blockchain architecture & smart contract lifecycle",
-    "Explore the GCC's environmental asset legal landscape",
+    "Explore the GCC's environmental asset legal landscape (EU AI Act)",
     "Create a lab-based carbon token & deploy on Polygon",
     "Analyze case studies from steel, cement, and energy sectors",
     "Present a group tokenization project with evaluation",

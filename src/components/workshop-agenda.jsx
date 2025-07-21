@@ -6,7 +6,7 @@ export function WorkshopAgenda() {
     "Introduction to Carbon Markets & Climate Finance",
     "Blockchain 101: Public vs Private Chains",
     "Tokenization Mechanics & Lifecycle",
-    "GCC Legal Landscape for Environmental Assets",
+    "GCC Legal Landscape for Environmental Assets (EU AI Act)",
     "Industry Use Cases Discussion",
     "Launch of Group Tokenization Assignment",
   ]
@@ -15,7 +15,7 @@ export function WorkshopAgenda() {
     "MRV & IoT for Carbon Data",
     "Smart Contracts & dApp Development (Hands-On)",
     "Token Distribution & Marketplace Access",
-    "Regulatory Reporting & Risk Management",
+    "Regulatory Reporting & Risk Management (EU AI Act)",
     "Final Group Presentations + Evaluation",
     "Certification Ceremony",
   ]

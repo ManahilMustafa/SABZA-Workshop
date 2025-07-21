@@ -15,14 +15,22 @@ export function CallToAction() {
           <h2 className="text-4xl font-bold mb-4">Limited Spots Available</h2>
           <p className="text-xl mb-2">Don't Miss the Region's Premier Tokenization Training</p>
           <p className="text-lg mb-8 opacity-90">25–26 July 2025 | Live + Hands-On Labs | USD $350</p>
+<a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfT-Kp_evyQJ62tSvSaty-0ru8qnWuNypw5XRkGvxxhYQNh5A/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-white hover:bg-green-500 text-black px-4 py-2 rounded-md"
+>
+  Register Now
+</a>
 
-          <Button
+          {/* <Button
             size="lg"
             className="bg-white text-green-600 hover:bg-gray-100 px-12 py-4 text-lg font-semibold"
             onClick={() => setIsRegistrationOpen(true)}
           >
             Register Now
-          </Button>
+          </Button> */}
 
           <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm opacity-90">
             <div className="flex items-center space-x-2">

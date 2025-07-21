@@ -6,7 +6,7 @@ export function HandsOnLabs() {
     { icon: Code, title: "Deploy Carbon Token", desc: "Deploy a carbon token on Polygon Testnet" },
     { icon: Shield, title: "Blockchain Tools", desc: "Work with MetaMask, Remix & Truffle" },
     { icon: TrendingUp, title: "MRV Simulation", desc: "Simulate MRV data in smart contracts" },
-    { icon: Lightbulb, title: "Trading Platforms", desc: "Explore TokenizeX & AirCarbon platforms" },
+    { icon: Lightbulb, title: "Trading Platforms", desc: "Explore Sabza Platform and more" },
   ]
 
   return (

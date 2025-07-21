@@ -28,7 +28,7 @@ export function ContactRegistration() {
             <div className="flex flex-col items-center space-y-2">
               <Users className="h-8 w-8 text-green-600" />
               <span className="font-semibold text-black">Discord Support</span>
-              <a href="#" className="text-green-600 hover:underline">
+              <a href="https://discord.gg/RScxqCBt" className="text-green-600 hover:underline">
                 Join Support Channel
               </a>
             </div>

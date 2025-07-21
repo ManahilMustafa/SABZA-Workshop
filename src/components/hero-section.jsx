@@ -42,13 +42,22 @@ export function HeroSection() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
+            <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfT-Kp_evyQJ62tSvSaty-0ru8qnWuNypw5XRkGvxxhYQNh5A/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md"
+>
+  Register Now
+</a>
+
+            {/* <Button
               size="lg"
               className="bg-green-600 hover:bg-green-700 text-white px-8 py-3"
               onClick={() => setIsRegistrationOpen(true)}
             >
               Register Now
-            </Button>
+            </Button> */}
             <Button
               size="lg"
               variant="outline"

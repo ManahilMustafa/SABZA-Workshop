@@ -12,10 +12,11 @@ export function Header() {
       <header className="border-b border-gray-200 sticky top-0 bg-white/95 backdrop-blur-sm z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Leaf className="h-8 w-8 text-green-600" />
-              <span className="text-2xl font-bold text-black">SABZA</span>
-            </div>
+           <div className="flex items-center space-x-2">
+  <img src="/logo.jpg" alt="SABZA Logo" className="h-16 w-19" />
+  
+</div>
+
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#overview" className="text-black hover:text-green-600 transition-colors">
                 Overview
@@ -30,9 +31,18 @@ export function Header() {
                 Contact
               </a>
             </nav>
-            <Button className="bg-green-600 hover:bg-green-700 text-white" onClick={() => setIsRegistrationOpen(true)}>
+            <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfT-Kp_evyQJ62tSvSaty-0ru8qnWuNypw5XRkGvxxhYQNh5A/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md"
+>
+  Register Now
+</a>
+
+            {/* <Button className="bg-green-600 hover:bg-green-700 text-white" onClick={() => setIsRegistrationOpen(true)}>
               Register Now
-            </Button>
+            </Button> */}
           </div>
         </div>
       </header>
