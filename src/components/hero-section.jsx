@@ -58,14 +58,14 @@ export function HeroSection() {
             >
               Register Now
             </Button> */}
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               className="text-xs border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 bg-transparent"
               onClick={() => setIsRegistrationOpen(true)}
             >
               Get Certified as Carbon Tokenization Associate
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
