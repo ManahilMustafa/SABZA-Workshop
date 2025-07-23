@@ -65,12 +65,12 @@ export default function WebinarTeaser() {
                   className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-semibold"
                 >
                   <a
-                    href="https://www.meetup.com/doha-carbon-footprint-meetup-group/events/309587687/"
+                    href="https://www.meetup.com/doha-carbon-footprint-meetup-group/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
                   >
-                    🔗 Register Now
+                    🔗 Join Us
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </Button>
