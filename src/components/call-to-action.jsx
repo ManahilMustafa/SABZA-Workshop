@@ -14,7 +14,7 @@ export function CallToAction() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Limited Spots Available</h2>
           <p className="text-xl mb-2">Don't Miss the Region's Premier Tokenization Training</p>
-          <p className="text-lg mb-8 opacity-90">25–26 July 2025 | Live + Hands-On Labs | USD $350</p>
+          <p className="text-lg mb-8 opacity-90">8–9 August 2025 | Live + Hands-On Labs | USD $350</p>
 <a
   href="https://docs.google.com/forms/d/e/1FAIpQLSfT-Kp_evyQJ62tSvSaty-0ru8qnWuNypw5XRkGvxxhYQNh5A/viewform"
   target="_blank"
