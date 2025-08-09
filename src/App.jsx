@@ -7,6 +7,7 @@ import { HandsOnLabs } from "./components/hands-on-labs";
 import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
 import { InvestmentCertification } from "./components/investment-certification";
+import TrainerProfile from "./components/trainer-profile";
 import WebinarTeaser from "./components/webinar-teaser";
 import { WorkshopAgenda } from "./components/workshop-agenda";
 import { WorkshopOverview } from "./components/workshop-overview";
@@ -22,6 +23,7 @@ export default function SabzaWorkshopLanding() {
       <WorkshopAgenda />
       <CaseStudies />
       <HandsOnLabs />
+      <TrainerProfile />
       <InvestmentCertification />
        <WebinarTeaser />
       <ContactRegistration />
