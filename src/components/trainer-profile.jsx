@@ -8,7 +8,7 @@ export default function TrainerProfile() {
       <div className="container px-4 md:px-6 mx-auto">
         {" "}
         {/* Ensure container is centered */}
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12 text-black">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-4xl text-center mb-12 text-black">
           Trainers Profile
         </h2>
         <div className="mx-auto max-w-4xl bg-white p-8 rounded-xl shadow-sm border border-gray-100">
@@ -20,9 +20,10 @@ export default function TrainerProfile() {
             <div className="flex justify-center mr-2 md:justify-end">
               {" "}
               {/* Center image on small screens, right-align on medium */}
-              <Avatar className="w-50 h-50 md:w-90 md:h-90">
-                <AvatarImage src="/zafarfinal.png" alt="Zafar Imran" />
-              </Avatar>
+            <Avatar className="w-50 h-50 md:w-90 md:h-90 rounded-none">
+  <AvatarImage src="/zafarfinal.png" alt="Zafar Imran" className="rounded-none" />
+</Avatar>
+
             </div>
             <div className="space-y-4 text-center md:text-left">
               {" "}
